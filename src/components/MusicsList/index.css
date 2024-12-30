@@ -1,0 +1,67 @@
+.music-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.music-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image {
+  height: 100px;
+}
+
+.name-container {
+  margin-left: 12px;
+}
+
+.music-directer-name {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.genre {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #3b82f6;
+}
+
+.duration-container {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.duration {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  margin-right: 45px;
+}
+
+.delete-icon {
+  color: #ffffff;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0px;
+  outline: none;
+  margin-right: 30px;
+}
